@@ -1,0 +1,30 @@
+.form__span {
+    position: relative;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #2A4A5C;
+    margin: 40px 0 0;
+    text-align: center;
+}
+
+.form__span::before {
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #AFAFAF;
+    position: absolute;
+    top: 50%;
+    left: 85px;
+}
+
+.form__span::after {
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #AFAFAF;
+    position: absolute;
+    top: 50%;
+    right: 85px;
+}

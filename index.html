@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>CSS Task Master</title>
+</head>
+<body class="page">
+ <div class="page__container">
+     <div class="page__background">
+         <img src="./img/logo.svg" alt="logo" class="page__logo">
+     </div>
+     <form action="#" name="signup" class="form">
+         <h1 class="form__title">Get iintoo it today</h1>
+         <p class="form__subtitle">There is no charge or obligation upon registration</p>
+         <fieldset class="form__fieldset">
+             <button class="form__button-facebook button">Register with Facebook</button>
+             <button class="form__button-linkedin button">Register with LinkedIn</button>
+         </fieldset>
+         <p class="form__span">or</p>
+         <fieldset class="form__fieldset">
+            <input id="email" name="email" type="email" class="form__input" placeholder="Email">
+            <input id="phone" name="phone" type="number" class="form__input" placeholder="Phone">
+        </fieldset>
+        <h2 class="form__radio-title">What type of investor are you?</h2>
+        <p class="form__radio-subtitle">Select the type of investor you are below.</p>
+        <fieldset class="form__fieldset">
+            <label for="investorType1" class="form__radio-label"><input id="investorType1" name="investor" type="radio" value="individual" class="form__radio-input"> Individual</label>
+            <label for="investorType2" class="form__radio-label"><input id="investorType2" name="investor" type="radio" value="business" class="form__radio-input"> Business</label>
+            <label for="investorType3" class="form__radio-label"><input id="investorType3" name="investor" type="radio" value="IRA" class="form__radio-input"> IRA</label>
+            <label for="investorType4" class="form__radio-label"><input id="investorType4" name="investor" type="radio" value="Trust" class="form__radio-input"> Trust</label>
+        </fieldset>
+        <p class="form__info">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant on common.</p>
+        <fieldset class="form__fieldset">
+            <label for="terms" class="form__checkbox-label"><input id="terms" type="checkbox" class="form__checkbox"> I agree to the terms and receiving notifications from iintoo <a href="#" class="form__term-link">View full terms</a></label>
+        </fieldset>
+        <button class="form__submit-button">Create Account</button>
+     </form>
+ </div>
+</body>
+</html>

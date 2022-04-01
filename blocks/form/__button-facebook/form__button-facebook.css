@@ -1,0 +1,7 @@
+.form__button-facebook {
+    background-color: #255A9B;
+    background-image: url('../../../img/facebook.svg');
+    background-size: 15px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}

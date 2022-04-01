@@ -1,0 +1,17 @@
+.form__submit-button {
+    width: 50%;
+    margin: 50px 0 0;
+    font-weight: 500;
+    padding: 9px;
+    background-color: #3698FB;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.form__submit-button:hover {
+    opacity: 0.8;
+}
