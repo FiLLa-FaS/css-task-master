@@ -1,4 +1,6 @@
 .form__radio-label {
+    display: flex;
+    align-items: flex-end;
     font-family: 'Barlow', sans-serif;
     font-size: 14px;
 }

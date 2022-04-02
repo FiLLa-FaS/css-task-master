@@ -9,5 +9,10 @@
     border-radius: 2px;
 }
 
-/* TODO нужно присоединить инфу к радиокнопкам */
+@media screen and (max-width: 600px) {
+    .form__info {
+      width: 100%
+    }
+  }
+
 /* TODO тень другого вида */

@@ -4,6 +4,7 @@
     font-family: 'Barlow', sans-serif;
     font-size: 14px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .form__input:focus {
@@ -17,5 +18,3 @@
     color: #7B8A92;
     transform: translate(0px, -12px);
 }
-
-/* TODO есть вопросы с расположением текста в инпуте и текста сверху инпута */
